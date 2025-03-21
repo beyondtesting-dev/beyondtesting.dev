@@ -15,6 +15,11 @@
   --ifm-hero-background-color: #AAB3C1;
   --ifm-hero-text-color: var(--ifm-font-color-base-inverse);
 
+  --ifm-menu-color-background-active: #ffffff;
+  --ifm-menu-color: #ffffff;
+  --ifm-menu-color-active: #0D1B2A;
+  --ifm-menu-color-hover: #0D1B2A;
+
   --ifm-color-primary: #0D1B2A; /* Deep blue for hero background */
   --ifm-color-primary-dark: #0A151F; /* Slightly darker for contrast */
   --ifm-color-primary-darker: #08101A; /* Even darker variant */
@@ -24,6 +29,10 @@
   --ifm-color-primary-lightest: #4ECDC4; /* Vibrant cyan for highlights */
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+.navbar__toggle {
+  color: #ffffff;
 }
 
 .button.button--primary {
