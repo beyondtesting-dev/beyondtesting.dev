@@ -13,9 +13,9 @@ Using the `in`, `out`, and `invariant` blocks, D allows you to express **precond
 
 ---
 
-## 🔧 How Contracts Work in D
+## How Contracts Work in D
 
-### ✅ Preconditions and Postconditions
+### Preconditions and Postconditions
 
 Use `in` and `out` blocks inside functions:
 
