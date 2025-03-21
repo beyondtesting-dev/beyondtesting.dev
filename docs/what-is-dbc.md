@@ -57,8 +57,8 @@ DbC enforces trust *within your codebase*. That’s what makes it powerful.
 
 These languages have **native support** for Design by Contract — it’s built into the compiler or core runtime, not bolted on with libraries or frameworks:
 
-- [**Eiffel**](https://www.eiffel.org/doc/solutions/Design_by_Contract_and_Assertions): the birthplace of Design by Contract. Contracts are part of the language’s identity and enforced by default.
-- [**Ada**](https://learn.adacore.com/courses/intro-to-ada/chapters/contracts.html): includes preconditions, postconditions, and invariants as part of the language (since Ada 2012), with formal support in SPARK for critical systems.
+- [**Eiffel**](./eiffel): the birthplace of Design by Contract. Contracts are part of the language’s identity and enforced by default.
+- [**Ada**](./ada): includes preconditions, postconditions, and invariants as part of the language (since Ada 2012), with formal support in SPARK for critical systems.
 - [**D**](https://dlang.org/spec/contracts.html): supports `in` and `out` contracts directly in function declarations, making DbC a natural part of the development process.
 - [**Racket**](https://docs.racket-lang.org/reference/contracts.html): offers a contract system deeply integrated into the language. Contracts are first-class values and can be applied to functions, data structures, classes, and modules — enabling full preconditions, postconditions, and invariants at runtime.
 
