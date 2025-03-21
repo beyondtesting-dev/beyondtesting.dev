@@ -36,6 +36,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
+          routeBasePath: 'kb',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -72,7 +73,7 @@ const config: Config = {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "left",
-          label: "Docs",
+          label: "Knowledge Base",
         },
         // { to: "/faq", label: "FAQ", position: "left" },
         // { to: "/technologies-used", label: "Technologies", position: "left" },
@@ -91,8 +92,8 @@ const config: Config = {
           title: "Links",
           items: [
             {
-              label: "Docs",
-              to: "/docs/intro",
+              label: "Knowledge Base",
+              to: "/kb",
             },
           ],
         },

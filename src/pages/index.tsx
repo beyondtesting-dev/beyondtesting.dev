@@ -163,7 +163,7 @@ export default function Home(): JSX.Element {
         <div className="container">
           <div className="row margin-bottom--sm">
             <div className={clsx("col col--offset-2 col--8 padding-top--lg")}>
-              <h1 className="text--center">What if your software could test itself?</h1>
+              <h1 className="text--center">What if tests were part of production code?</h1>
               <p className="text--center">
               Most testing frameworks focus on <strong>catching</strong> bugs, but what if we could <strong>prevent</strong> them from the start?
               BeyondTesting.dev explores <strong>Design by Contract (DbC)</strong>—a methodology where software correctness is <strong>built-in, not patched later</strong>.
