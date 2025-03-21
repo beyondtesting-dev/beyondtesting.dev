@@ -1,11 +1,11 @@
 ---
 id: ada
-title: Ada
+title: DbC in Ada
 sidebar_position: 3
 slug: /ada
 ---
 
-# Ada
+# Design by Contract in Ada
 
 **Ada** has built-in support for Design by Contract through its **aspect specification syntax**, introduced in **Ada 2012**. This allows you to specify preconditions, postconditions, and type/class invariants directly in the code — all checked at runtime.
 
@@ -13,11 +13,11 @@ When used with **SPARK**, these contracts can also be **statically verified**, m
 
 ---
 
-## 🔧 How Contracts Work in Ada
+## How Contracts Work in Ada
 
 Ada uses **aspect clauses** to attach contracts to procedures, functions, and types.
 
-### ✅ Preconditions and Postconditions
+### Preconditions and Postconditions
 
 ```ada
 procedure Deposit (Amount : in Positive) with

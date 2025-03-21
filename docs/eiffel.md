@@ -1,12 +1,12 @@
 ---
 id: eiffel
-title: Eiffel
+title: DbC in Eiffel
 sidebar_position: 2
 slug: /eiffel
 ---
 
 
-# Eiffel
+# Design by Contract in Eiffel
 
 **Eiffel** is the birthplace of Design by Contract — the language where the concept was first introduced and fully realized.
 
