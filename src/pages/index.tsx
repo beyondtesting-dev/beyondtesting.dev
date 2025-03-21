@@ -174,7 +174,7 @@ export default function Home(): JSX.Element {
                 <li>Fewer tests, <strong>more guarantees</strong></li>
                 <li><strong>Provably correct software</strong></li>
               </ul>
-              <p>New to Design by Contract? <a href="">Learn the basics.</a></p>
+              <p>New to Design by Contract? <Link to="/kb">Learn the basics</Link></p>
             </div>
           </div>
         </div>
