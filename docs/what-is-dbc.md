@@ -60,7 +60,7 @@ These languages have **native support** for Design by Contract — it’s built 
 - [**Eiffel**](./eiffel): the birthplace of Design by Contract. Contracts are part of the language’s identity and enforced by default.
 - [**Ada**](./ada): includes preconditions, postconditions, and invariants as part of the language (since Ada 2012), with formal support in SPARK for critical systems.
 - [**D**](./d): supports `in` and `out` contracts directly in function declarations, making DbC a natural part of the development process.
-- [**Racket**](https://docs.racket-lang.org/reference/contracts.html): offers a contract system deeply integrated into the language. Contracts are first-class values and can be applied to functions, data structures, classes, and modules — enabling full preconditions, postconditions, and invariants at runtime.
+- [**Racket**](./racket): offers a contract system deeply integrated into the language. Contracts are first-class values and can be applied to functions, data structures, classes, and modules — enabling full preconditions, postconditions, and invariants at runtime.
 
 ---
 
