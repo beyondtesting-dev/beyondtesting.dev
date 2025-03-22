@@ -129,10 +129,7 @@ const config: Config = {
       ],
     },
     mermaid: {
-      theme: { light: "base", dark: "dark" },
-      options: {
-        maxTextSize: 50,
-      },
+      theme: { light: "base", dark: "base" },
     },
   } satisfies Preset.ThemeConfig,
 };

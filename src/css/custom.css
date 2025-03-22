@@ -70,6 +70,11 @@
   color: #0d1b2a !important;
 }
 
+.menu__link {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
 /* .button.button--secondary {
   --ifm-button-border-color: #6AC6D9;
   --ifm-button-background-color: #000000;

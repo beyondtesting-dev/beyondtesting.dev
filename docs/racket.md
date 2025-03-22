@@ -1,8 +1,10 @@
 ---
 id: racket
 title: DbC in Racket
-sidebar_position: 5
+description: Racket treats contracts as first-class citizens—see how they enable function, struct, and module-level correctness.
+sidebar_position: 6
 slug: /racket
+hide_table_of_contents: false
 ---
 
 # Design by Contract in Racket
@@ -58,7 +60,7 @@ One of Racket’s most powerful features: you can contract an **entire module in
 
 ## Composable Contracts
 
-Contracts in Racket are **composable** — you can build complex contracts using higher-order functions. 
+Contracts in Racket are **composable** — you can build complex contracts using higher-order functions.
 
 Examples:
 
@@ -96,4 +98,3 @@ If you want to **build correct software by design**, Racket is a language that t
 - [Racket Reference: Contracts](https://docs.racket-lang.org/reference/contracts.html)
 - [Racket GitHub Repository](https://github.com/racket/racket)
 - [Download Racket](https://download.racket-lang.org/) — includes DrRacket, the recommended IDE
-

@@ -1,10 +1,11 @@
 ---
 id: eiffel
 title: DbC in Eiffel
-sidebar_position: 2
+description: How Design by Contract is built into the Eiffel language with native preconditions, postconditions, and invariants.
+sidebar_position: 3
 slug: /eiffel
+hide_table_of_contents: false
 ---
-
 
 # Design by Contract in Eiffel
 

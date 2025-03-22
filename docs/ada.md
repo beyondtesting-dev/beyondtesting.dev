@@ -1,8 +1,10 @@
 ---
 id: ada
 title: DbC in Ada
-sidebar_position: 3
+description: How Ada and SPARK bring runtime and static enforcement to Design by Contract using native language features.
 slug: /ada
+sidebar_position: 4
+hide_table_of_contents: false
 ---
 
 # Design by Contract in Ada

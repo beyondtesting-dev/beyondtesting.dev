@@ -1,0 +1,18 @@
+%%{init: {
+  "theme": "base",
+  "themeVariables": {
+    "primaryColor": "#0D1B2A",
+    "primaryTextColor": "#ffffff",
+    "primaryBorderColor": "#4ECDC4",
+    "lineColor": "#005A9C",
+    "edgeLabelBackground": "#13283F"
+  }
+}}%%
+
+flowchart TD
+    A[Start] --> B[Check Invariant #40;before#41;]
+    B --> C[Check Precondition]
+    C --> D[Run Method Body]
+    D --> E[Check Postcondition]
+    E --> F[Check Invariant #40;after#41;]
+    F --> G[End]
