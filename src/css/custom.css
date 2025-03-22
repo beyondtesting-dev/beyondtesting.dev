@@ -16,6 +16,7 @@
   --ifm-hero-text-color: var(--ifm-font-color-base-inverse);
 
   --ifm-menu-color-background-active: #ffffff;
+  --ifm-navbar-background-color: #13283F;
   --ifm-menu-color: #ffffff;
   --ifm-menu-color-active: #0D1B2A;
   --ifm-menu-color-hover: #0D1B2A;
@@ -32,7 +33,12 @@
 }
 
 .theme-doc-sidebar-container {
-  background-color: #0D1B2A; /* Your dark color */
+  background-color: #13283F;
+}
+
+.navbar--fixed-top,
+.navbar-sidebar__brand {
+  background-color: #0D1B2A;
 }
 
 .theme-doc-sidebar-menu a:hover {

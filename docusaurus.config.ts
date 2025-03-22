@@ -5,7 +5,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 const config: Config = {
   title: "BeyondTesting.dev",
   tagline:
-    "Beyond Testing: Correctness by Design.",
+    "Correctness by Design",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
