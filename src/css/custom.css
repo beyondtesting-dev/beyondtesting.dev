@@ -117,3 +117,21 @@
   white-space: nowrap;
   border: 0;
 }
+
+/* Spinner */
+.spinner {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border: 3px solid rgba(0, 90, 156, 0.2); /* ifm-link-color */
+  border-top-color: #005a9c; /* ifm-link-color */
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
+  margin: auto;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
