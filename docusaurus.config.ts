@@ -4,8 +4,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "BeyondTesting.dev",
-  tagline:
-    "Correctness by Design",
+  tagline: "Correctness by Design",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -30,13 +29,18 @@ const config: Config = {
     locales: ["en"],
   },
 
+  markdown: {
+    mermaid: true,
+  },
+  themes: ["@docusaurus/theme-mermaid"],
+
   presets: [
     [
       "classic",
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          routeBasePath: 'kb',
+          routeBasePath: "kb",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -95,38 +99,16 @@ const config: Config = {
               label: "Knowledge Base",
               to: "/kb",
             },
-{
-label: "More Ada Resources",
-href: "https://beyond-tabs.com/language/ada"
-},
-{
-label: "More Eiffel Resources",
-href: "https://beyond-tabs.com/language/eiffel"
-},
+            {
+              label: "More Ada Resources",
+              href: "https://beyond-tabs.com/language/ada",
+            },
+            {
+              label: "More Eiffel Resources",
+              href: "https://beyond-tabs.com/language/eiffel",
+            },
           ],
         },
-        // {
-        //   title: "Community",
-        //   items: [
-        //     {
-        //       label: "Discord",
-        //       href: "https://discord.gg/Cbgcajdq",
-        //     },
-        //   ],
-        // },
-        // {
-        //   title: "More",
-        //   items: [
-        //     {
-        //       label: "Blog",
-        //       to: "/blog",
-        //     },
-        //     {
-        //       label: "GitHub",
-        //       href: "https://github.com/xframes-project/xframes",
-        //     },
-        //   ],
-        // },
       ],
       copyright: `${new Date().getFullYear()}. Built with Docusaurus.`,
     },
@@ -135,37 +117,22 @@ href: "https://beyond-tabs.com/language/eiffel"
       darkTheme: prismThemes.dracula,
       additionalLanguages: [
         "ada",
-        "c",
-        "csharp",
-        "clojure",
         "cmake",
-        "cobol",
         "d",
+        // "eiffel",
         "fsharp",
-        "fortran",
         "haskell",
-        "java",
         "json",
-        "julia",
-        "kotlin",
-        "lisp",
-        "lua",
-        "nim",
-        "ocaml",
-        "pascal",
         "python",
         "scheme",
         "racket", // racket extends scheme, so has to come after it
-        "ruby",
-        "crystal", // crystal extends ruby, so has to come after it
-        "rust",
-        "scala",
-        "smalltalk",
-        "swift",
-        "tcl",
-        "typescript",
-        "wasm",
       ],
+    },
+    mermaid: {
+      theme: { light: "base", dark: "dark" },
+      options: {
+        maxTextSize: 50,
+      },
     },
   } satisfies Preset.ThemeConfig,
 };

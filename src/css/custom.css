@@ -7,38 +7,38 @@
 /* You can override the default Infima variables here. */
 :root {
   /* --ifm-color-primary: #0D1B2A; */
-  --ifm-link-color: #005A9C;
+  --ifm-link-color: #005a9c;
   --ifm-navbar-link-color: #ffffff;
   --ifm-navbar-link-hover-color: #ffffff;
-  --ifm-navbar-background-color: #0D1B2A;
+  --ifm-navbar-background-color: #0d1b2a;
 
-  --ifm-hero-background-color: #AAB3C1;
+  --ifm-hero-background-color: #aab3c1;
   --ifm-hero-text-color: var(--ifm-font-color-base-inverse);
 
   --ifm-menu-color-background-active: #ffffff;
-  --ifm-navbar-background-color: #13283F;
+  --ifm-navbar-background-color: #13283f;
   --ifm-menu-color: #ffffff;
-  --ifm-menu-color-active: #0D1B2A;
-  --ifm-menu-color-hover: #0D1B2A;
+  --ifm-menu-color-active: #0d1b2a;
+  --ifm-menu-color-hover: #0d1b2a;
 
-  --ifm-color-primary: #0D1B2A; /* Deep blue for hero background */
-  --ifm-color-primary-dark: #0A151F; /* Slightly darker for contrast */
-  --ifm-color-primary-darker: #08101A; /* Even darker variant */
-  --ifm-color-primary-darkest: #050C14; /* Deepest shade */
-  --ifm-color-primary-light: #13283F; /* Slightly lighter blue */
-  --ifm-color-primary-lighter: #1B3550; /* Balanced light blue */
-  --ifm-color-primary-lightest: #4ECDC4; /* Vibrant cyan for highlights */
+  --ifm-color-primary: #0d1b2a; /* Deep blue for hero background */
+  --ifm-color-primary-dark: #0a151f; /* Slightly darker for contrast */
+  --ifm-color-primary-darker: #08101a; /* Even darker variant */
+  --ifm-color-primary-darkest: #050c14; /* Deepest shade */
+  --ifm-color-primary-light: #13283f; /* Slightly lighter blue */
+  --ifm-color-primary-lighter: #1b3550; /* Balanced light blue */
+  --ifm-color-primary-lightest: #4ecdc4; /* Vibrant cyan for highlights */
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 .theme-doc-sidebar-container {
-  background-color: #13283F;
+  background-color: #13283f;
 }
 
 .navbar--fixed-top,
 .navbar-sidebar__brand {
-  background-color: #0D1B2A;
+  background-color: #0d1b2a;
 }
 
 .theme-doc-sidebar-menu a:hover {
@@ -47,7 +47,7 @@
 }
 
 .theme-doc-sidebar-menu .menu__link--active {
-  color: #0D1B2A;
+  color: #0d1b2a;
   background-color: #ffffff;
 }
 
@@ -56,16 +56,18 @@
 }
 
 .button.button--primary {
-  background-color: var(--ifm-color-primary-lightest) !important; /* Vibrant Cyan */
+  background-color: var(
+    --ifm-color-primary-lightest
+  ) !important; /* Vibrant Cyan */
   border-color: var(--ifm-color-primary-lightest) !important;
-  color: #0D1B2A !important; /* Dark text for contrast */
+  color: #0d1b2a !important; /* Dark text for contrast */
 }
 
 /* On hover: Slightly darken the button */
 .button.button--primary:hover {
-  background-color: #3AB9A5 !important; /* Slightly darker cyan */
-  border-color: #3AB9A5 !important;
-  color: #0D1B2A !important;
+  background-color: #3ab9a5 !important; /* Slightly darker cyan */
+  border-color: #3ab9a5 !important;
+  color: #0d1b2a !important;
 }
 
 /* .button.button--secondary {
@@ -85,7 +87,7 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
@@ -102,4 +104,16 @@
 
 .navbar__link:hover {
   text-decoration: underline;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
