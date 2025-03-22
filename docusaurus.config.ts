@@ -95,6 +95,14 @@ const config: Config = {
               label: "Knowledge Base",
               to: "/kb",
             },
+{
+label: "More Ada Resources",
+href: "https://beyond-tabs.com/language/ada"
+},
+{
+label: "More Eiffel Resources",
+href: "https://beyond-tabs.com/language/eiffel"
+},
           ],
         },
         // {
