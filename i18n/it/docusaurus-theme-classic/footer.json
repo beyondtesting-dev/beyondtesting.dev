@@ -1,0 +1,22 @@
+{
+  "link.title.Links": {
+    "message": "Altri link",
+    "description": "The title of the footer links column with title=Links in the footer"
+  },
+  "link.item.label.Knowledge Base": {
+    "message": "Materiale didattico",
+    "description": "The label of footer link with label=Knowledge Base linking to /kb"
+  },
+  "link.item.label.More Ada Resources": {
+    "message": "Link utili per Ada",
+    "description": "The label of footer link with label=More Ada Resources linking to https://beyond-tabs.com/language/ada"
+  },
+  "link.item.label.More Eiffel Resources": {
+    "message": "Link utili per Eiffel",
+    "description": "The label of footer link with label=More Eiffel Resources linking to https://beyond-tabs.com/language/eiffel"
+  },
+  "copyright": {
+    "message": "2025. Sviluppato con Docusaurus.",
+    "description": "The footer copyright"
+  }
+}

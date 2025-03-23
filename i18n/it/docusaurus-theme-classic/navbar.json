@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "BeyondTesting.dev",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Logo di BeyondTesting.dev",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Knowledge Base": {
+    "message": "Materiale didattico",
+    "description": "Navbar item with label Knowledge Base"
+  },
+  "item.label.About": {
+    "message": "Info",
+    "description": "Navbar item with label About"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

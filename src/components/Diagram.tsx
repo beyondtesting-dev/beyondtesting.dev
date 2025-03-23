@@ -5,12 +5,13 @@ export default function Diagram({
   chart,
   title,
   description,
+  id,
 }: {
+  id: string;
   chart: string;
   title: string;
   description: string;
 }) {
-  const id = title.toLowerCase().replace(/\s+/g, "-");
   return (
     <figure role="img" aria-labelledby={`${id}-desc`}>
       <Mermaid chart={chart} id={id} />
