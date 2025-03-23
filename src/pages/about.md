@@ -18,11 +18,17 @@ This isn't a testing library. It's a mindset shift.
 
 Most developers spend their careers chasing correctness with tests. Writing them. Updating them. Rewriting them.
 
-> We're not here to chase correctness. We're here to design it in from the start.
+> We’re not here to chase correctness. We’re here to design it in from the start.
 
 **BeyondTesting.dev stands for correctness, clarity, and a refusal to settle.**
 
 BeyondTesting.dev shows how **contracts** can do just that — through clear diagrams, real code examples, and language-native support.
+
+> **Design by Contract originated in [Bertrand Meyer](https://bertrandmeyer.com/)'s book _Object-Oriented Software Construction_ (1992).**  
+> It formalized preconditions, postconditions, and invariants — not as documentation, but as _executable guarantees_.  
+> The Eiffel programming language was the first to enforce these principles by design.
+
+[Read the full book (PDF)](https://bertrandmeyer.com/wp-content/upLoads/OOSC2.pdf)
 
 ---
 
