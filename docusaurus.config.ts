@@ -45,7 +45,6 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
     image: "img/logo.png",
     navbar: {
       title: "BeyondTesting.dev",
@@ -60,14 +59,12 @@ const config: Config = {
           position: "left",
           label: "Knowledge Base",
         },
-        // { to: "/faq", label: "FAQ", position: "left" },
-        // { to: "/technologies-used", label: "Technologies", position: "left" },
         { to: "/about", label: "About", position: "right" },
-        // {
-        //   href: "https://github.com/xframes-project/xframes",
-        //   label: "GitHub",
-        //   position: "right",
-        // },
+        {
+          href: "https://github.com/beyondtesting-dev/beyondtesting.dev",
+          label: "GitHub",
+          position: "right",
+        },
       ],
     },
     footer: {
