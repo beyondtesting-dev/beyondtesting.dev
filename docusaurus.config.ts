@@ -41,10 +41,6 @@ const config: Config = {
         docs: {
           sidebarPath: "./sidebars.ts",
           routeBasePath: "kb",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          // "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         // blog: {
         //   showReadingTime: true,
@@ -81,7 +77,7 @@ const config: Config = {
         },
         // { to: "/faq", label: "FAQ", position: "left" },
         // { to: "/technologies-used", label: "Technologies", position: "left" },
-        // { to: "/blog", label: "Blog", position: "left" },
+        { to: "/about", label: "About", position: "right" },
         // {
         //   href: "https://github.com/xframes-project/xframes",
         //   label: "GitHub",
