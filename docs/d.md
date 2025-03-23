@@ -11,7 +11,7 @@ hide_table_of_contents: false
 
 The **D programming language** has native support for Design by Contract — built right into its syntax from day one.
 
-Using the `in`, `out`, and `invariant` blocks, D allows you to express **preconditions**, **postconditions**, and **invariants** directly in your code. These contracts are **enforced at runtime**, and their use is encouraged as part of D’s overall focus on correctness and expressiveness.
+Using the `in`, `out`, and `invariant` blocks, D allows you to express **preconditions**, **postconditions**, and **invariants** directly in your code. These contracts are **enforced at runtime**, and their use is encouraged as part of D's overall focus on correctness and expressiveness.
 
 ---
 
@@ -83,7 +83,7 @@ Contracts in D are compiled in or out depending on build flags:
 
 ## Why D Matters
 
-D’s contract support is:
+D's contract support is:
 
 - **First-class and part of the language**
 - **Readable and idiomatic** — no decorators or boilerplate

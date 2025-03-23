@@ -29,12 +29,12 @@ BeyondTesting.dev shows how **contracts** can do just that — through clear dia
 ## Who it's for
 
 - Curious developers who would prefer baking in acceptance criteria in the code rather than the tests
-- Developers working on code that can’t afford to fail
+- Developers working on code that can't afford to fail
 - Anyone who wants their code to speak for itself
 
 ---
 
-## Who’s behind it
+## Who's behind it
 
 Built and maintained by [Andrea Mancuso](https://github.com/andreamancuso).  
 Connect on [LinkedIn](https://www.linkedin.com/in/andrea-m-95ba44185/).

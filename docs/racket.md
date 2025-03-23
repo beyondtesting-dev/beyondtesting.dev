@@ -9,7 +9,7 @@ hide_table_of_contents: false
 
 # Design by Contract in Racket
 
-**Racket** offers one of the most flexible and expressive contract systems of any programming language — and it’s built directly into the language.
+**Racket** offers one of the most flexible and expressive contract systems of any programming language — and it's built directly into the language.
 
 Contracts in Racket are **first-class values**, meaning you can define, compose, and apply them like any other function. They're enforced **dynamically at module boundaries**, making them ideal for **component-level correctness**.
 
@@ -47,7 +47,7 @@ Contracts can also be applied to data structures, enforcing invariants:
 
 ## Module Contracts
 
-One of Racket’s most powerful features: you can contract an **entire module interface**:
+One of Racket's most powerful features: you can contract an **entire module interface**:
 
 ```racket
 (provide
@@ -82,7 +82,7 @@ This makes Racket an **ideal language for experimenting with contract-driven arc
 
 ## Why Racket Matters
 
-Racket doesn’t just _support_ contracts — it treats them as a **fundamental programming tool**.
+Racket doesn't just _support_ contracts — it treats them as a **fundamental programming tool**.
 
 - Ideal for teaching, rapid prototyping, and research
 - Perfect for **component-level correctness**

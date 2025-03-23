@@ -21,7 +21,7 @@ Most developers have a mental model that looks like this:
 ✅ test_output_format
 ```
 
-Seven test cases. One function. And you’re never sure if you missed one.
+Seven test cases. One function. And you're never sure if you missed one.
 
 ---
 

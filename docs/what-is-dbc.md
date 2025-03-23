@@ -42,24 +42,24 @@ Less testing. More trust.
 | ⚠️ Fails at runtime      | Yes               | Yes (but sooner)   |
 | 🔁 Needs maintenance     | Yes               | Minimal            |
 
-They’re not mutually exclusive — but DbC can **replace a large chunk of your testing**, especially for internal logic.
+They're not mutually exclusive — but DbC can **replace a large chunk of your testing**, especially for internal logic.
 
 ---
 
-## Isn’t this just input validation?
+## Isn't this just input validation?
 
 No. Input validation protects from user mistakes.  
 Contracts protect from **developer mistakes** — violations of your own logic.
 
-DbC enforces trust _within your codebase_. That’s what makes it powerful.
+DbC enforces trust _within your codebase_. That's what makes it powerful.
 
 ---
 
 ## Where can I see it in action?
 
-These languages have **native support** for Design by Contract — it’s built into the compiler or core runtime, not bolted on with libraries or frameworks:
+These languages have **native support** for Design by Contract — it's built into the compiler or core runtime, not bolted on with libraries or frameworks:
 
-- [**Eiffel**](/kb/eiffel): the birthplace of Design by Contract. Contracts are part of the language’s identity and enforced by default.
+- [**Eiffel**](/kb/eiffel): the birthplace of Design by Contract. Contracts are part of the language's identity and enforced by default.
 - [**Ada**](/kb/ada): includes preconditions, postconditions, and invariants as part of the language (since Ada 2012), with formal support in SPARK for critical systems.
 - [**D**](/kb/d): supports `in` and `out` contracts directly in function declarations, making DbC a natural part of the development process.
 - [**Racket**](/kb/racket): offers a contract system deeply integrated into the language. Contracts are first-class values and can be applied to functions, data structures, classes, and modules — enabling full preconditions, postconditions, and invariants at runtime.

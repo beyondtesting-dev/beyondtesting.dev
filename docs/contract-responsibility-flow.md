@@ -5,16 +5,16 @@ sidebar_position: 3
 hide_table_of_contents: false
 ---
 
-# Who’s Responsible?
+# Who's Responsible?
 
-Design by Contract doesn’t just catch bugs — it tells you **who is responsible** when something breaks.
+Design by Contract doesn't just catch bugs — it tells you **who is responsible** when something breaks.
 
 Contracts make it clear:
 
 - **Preconditions** must be satisfied by the **caller**
 - **Postconditions** and **invariants** must be upheld by the **callee**
 
-If a contract fails, the blame isn’t vague — it’s built into the system.
+If a contract fails, the blame isn't vague — it's built into the system.
 
 ---
 
@@ -52,5 +52,5 @@ flowchart TD
 
 ---
 
-> Design by Contract doesn’t just help catch errors — it helps explain them.
+> Design by Contract doesn't just help catch errors — it helps explain them.
 > It tells you not just _what_ broke, but _who_ needs to fix it.
