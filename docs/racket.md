@@ -2,7 +2,7 @@
 id: racket
 title: DbC in Racket
 description: Racket treats contracts as first-class citizens—see how they enable function, struct, and module-level correctness.
-sidebar_position: 6
+sidebar_position: 7
 slug: /racket
 hide_table_of_contents: false
 ---

@@ -2,7 +2,7 @@
 id: d
 title: Dbc in D
 description: How the D programming language supports Design by Contract with native in, out, and invariant blocks.
-sidebar_position: 5
+sidebar_position: 6
 slug: /d
 hide_table_of_contents: false
 ---

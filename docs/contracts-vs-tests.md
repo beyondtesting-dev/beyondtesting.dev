@@ -39,6 +39,8 @@ Three simple rules. No surprises. Always enforced.
 
 ## Visual Comparison
 
+### Traditional testing
+
 ```mermaid
 %%{init: {
   "theme": "base",
@@ -64,18 +66,40 @@ flowchart TD
   D[Test Case 4] --> Z
   Z[Target Function]
 
-  subgraph Traditional Testing
+  subgraph Test Cases
     A
     B
     C
     D
   end
+```
 
+### Design by Contract
+
+```mermaid
+%%{init: {
+  "theme": "base",
+  "themeVariables": {
+    "background": "transparent",
+    "primaryColor": "#0D1B2A",
+    "primaryTextColor": "#ffffff",
+    "secondaryTextColor": "#ffffff",
+    "tertiaryTextColor": "#ffffff",
+    "textColor": "#ffffff",
+    "primaryBorderColor": "#4ECDC4",
+    "lineColor": "#005A9C",
+    "secondaryColor": "#13283F",
+    "tertiaryColor": "#1B3550",
+    "clusterBkg": "#0D1B2A",
+    "clusterBorder": "#4ECDC4"
+  }
+}}%%
+flowchart TD
   X[Precondition] --> T[Target Function with Contracts]
   T --> Y[Postcondition]
   Y --> I[Invariant]
 
-  subgraph Design by Contract
+  subgraph Flow
     X
     Y
     I
