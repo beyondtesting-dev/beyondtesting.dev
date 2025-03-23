@@ -21,6 +21,8 @@
   --ifm-menu-color-active: #0d1b2a;
   --ifm-menu-color-hover: #0d1b2a;
 
+  --ifm-footer-link-hover-color: #ffffff;
+
   --ifm-color-primary: #0d1b2a; /* Deep blue for hero background */
   --ifm-color-primary-dark: #0a151f; /* Slightly darker for contrast */
   --ifm-color-primary-darker: #08101a; /* Even darker variant */
