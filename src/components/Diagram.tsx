@@ -1,4 +1,3 @@
-// components/Diagram.tsx
 import React from "react";
 import Mermaid from "./Mermaid";
 

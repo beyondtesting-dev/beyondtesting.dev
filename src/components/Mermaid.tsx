@@ -1,4 +1,3 @@
-// components/Mermaid.tsx
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import mermaid from "mermaid";
 import Spinner from "./Spinner";

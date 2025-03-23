@@ -1,12 +1,4 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
-
-/* You can override the default Infima variables here. */
 :root {
-  /* --ifm-color-primary: #0D1B2A; */
   --ifm-link-color: #005a9c;
   --ifm-navbar-link-color: #ffffff;
   --ifm-navbar-link-hover-color: #ffffff;
@@ -23,13 +15,13 @@
 
   --ifm-footer-link-hover-color: #ffffff;
 
-  --ifm-color-primary: #0d1b2a; /* Deep blue for hero background */
-  --ifm-color-primary-dark: #0a151f; /* Slightly darker for contrast */
-  --ifm-color-primary-darker: #08101a; /* Even darker variant */
-  --ifm-color-primary-darkest: #050c14; /* Deepest shade */
-  --ifm-color-primary-light: #13283f; /* Slightly lighter blue */
-  --ifm-color-primary-lighter: #1b3550; /* Balanced light blue */
-  --ifm-color-primary-lightest: #4ecdc4; /* Vibrant cyan for highlights */
+  --ifm-color-primary: #0d1b2a;
+  --ifm-color-primary-dark: #0a151f;
+  --ifm-color-primary-darker: #08101a;
+  --ifm-color-primary-darkest: #050c14;
+  --ifm-color-primary-light: #13283f;
+  --ifm-color-primary-lighter: #1b3550;
+  --ifm-color-primary-lightest: #4ecdc4;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
@@ -58,16 +50,13 @@
 }
 
 .button.button--primary {
-  background-color: var(
-    --ifm-color-primary-lightest
-  ) !important; /* Vibrant Cyan */
+  background-color: var(--ifm-color-primary-lightest) !important;
   border-color: var(--ifm-color-primary-lightest) !important;
-  color: #0d1b2a !important; /* Dark text for contrast */
+  color: #0d1b2a !important;
 }
 
-/* On hover: Slightly darken the button */
 .button.button--primary:hover {
-  background-color: #3ab9a5 !important; /* Slightly darker cyan */
+  background-color: #3ab9a5 !important;
   border-color: #3ab9a5 !important;
   color: #0d1b2a !important;
 }
@@ -77,23 +66,10 @@
   border-bottom-right-radius: 0;
 }
 
-/* .button.button--secondary {
-  --ifm-button-border-color: #6AC6D9;
-  --ifm-button-background-color: #000000;
-  color: #6AC6D9;
-}
-
-:where(.button--secondary):not(.button--outline):hover {
-  --ifm-button-background-color: #6AC6D9;
-  --ifm-button-border-color: #ffffff;
-  color: #000000;
-} */
-
 .footer--dark {
   --ifm-footer-background-color: #000000;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
@@ -125,7 +101,6 @@
   border: 0;
 }
 
-/* Spinner */
 .spinner {
   display: inline-block;
   width: 24px;

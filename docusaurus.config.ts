@@ -7,16 +7,11 @@ const config: Config = {
   tagline: "Correctness by Design",
   favicon: "img/favicon.ico",
 
-  // Set the production url of your site here
   url: "https://beyondtesting.dev",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "beyondtesting-dev", // Usually your GitHub org/user name.
-  projectName: "beyondtesting.dev", // Usually your repo name.
+  organizationName: "beyondtesting-dev",
+  projectName: "beyondtesting.dev",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -42,16 +37,6 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           routeBasePath: "kb",
         },
-        // blog: {
-        //   showReadingTime: true,
-        //   feedOptions: {
-        //     type: ["rss", "atom"],
-        //     xslt: true,
-        //   },
-        //   onInlineTags: "warn",
-        //   onInlineAuthors: "warn",
-        //   onUntruncatedBlogPosts: "warn",
-        // },
         theme: {
           customCss: "./src/css/custom.css",
         },
@@ -115,7 +100,7 @@ const config: Config = {
         "ada",
         "cmake",
         "d",
-        // "eiffel",
+        "eiffel",
         "fsharp",
         "haskell",
         "json",
