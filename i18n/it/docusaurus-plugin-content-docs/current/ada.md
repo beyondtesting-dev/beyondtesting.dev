@@ -57,7 +57,7 @@ Questo rende Ada una scelta molto valida per sistemi **ad alta affidabilità**, 
 
 ## Cosa rende Ada speciale
 
-In Ada i contratti sono **costrutti di prima classe**, non semplici commenti o annotazioni.
+In Ada i contratti sono **costrutti del linguaggio**, non semplici commenti o annotazioni.
 
 - I contratti sono parte integrante delle **specifiche del linguaggio**
 - Possono essere applicati in esecuzione **senza librerie esterne**

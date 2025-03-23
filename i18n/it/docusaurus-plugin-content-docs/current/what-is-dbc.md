@@ -62,7 +62,7 @@ Questi linguaggi supportano nativamente il Design by Contract — è integrato n
 - [**Eiffel**](/kb/eiffel): la culla del Design by Contract. I contratti sono parte integrante del linguaggio e vengono applicati di default.
 - [**Ada**](/kb/ada): include precondizioni, postcondizioni e invarianti come parte integrante del linguaggio (dal 2012), con supporto formale tramite SPARK per sistemi ad alta affidabilità.
 - [**D**](/kb/d): supporta i contratti `in` e `out` direttamente nelle dichiarazioni di funzione, rendendo il DbC una parte naturale del processo di sviluppo.
-- [**Racket**](/kb/racket): offre un sistema di contratti profondamente integrato nel linguaggio. I contratti sono entità di primo livello e possono essere applicati a funzioni, strutture, classi e moduli — permettendo allo sviluppatore di far rispettare precondizioni, postcondizioni e invarianti in fase di runtime.
+- [**Racket**](/kb/racket): offre un sistema di contratti profondamente integrato nel linguaggio. I contratti sono entità di primo livello e possono essere applicati a funzioni, struct, classi e moduli — permettendo allo sviluppatore di far rispettare precondizioni, postcondizioni e invarianti in fase di runtime.
 
 ---
 
