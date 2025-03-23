@@ -11,7 +11,7 @@ hide_table_of_contents: false
 
 Il **Modello di Progettazione per Contratto (Design by Contract o, abbreviato, DbC)** è un metodo di scrittura del codice che documenta e fa rispettare le proprie aspettative — non solo tramite commenti o test, ma attraverso precise espressioni direttamente nel sorgente.
 
-Alla base, il DbC definisce tre elementi per ogni funzione o metodo:
+Alla base, il **DbC** definisce tre elementi per ogni funzione o metodo:
 
 - **Precondizioni** — Cosa deve essere vero _prima_ dell'esecuzione
 - **Postcondizioni** — Cosa garantisce _dopo_ l'esecuzione
@@ -26,7 +26,7 @@ _"Io prometto di fornirti input validi, tu prometti di fare il tuo lavoro e lasc
 
 Perché **i contratti intercettano i bug nel punto in cui si manifestano** — nei punti critici e dove meno ce lo si aspetta.
 
-Invece di scrivere valanghe di test sperando di aver coperto ogni possibile scenario, il DbC **verifica il tuo programma automaticamente**. Ti avvisa _tempestivamente_ nel momento in cui i termini del contratto vengono violati.
+Invece di scrivere decine di test sperando di aver coperto ogni possibile scenario, il DbC **verifica il tuo programma automaticamente**. Ti avvisa _tempestivamente_ nel momento in cui i termini del contratto vengono violati.
 
 Meno test. Più garanzie.
 
@@ -51,13 +51,13 @@ Non si escludono a vicenda — ma il DbC può **sostituire buona parte dei tuoi 
 No. La validazione degli input protegge dagli errori dell'utente.  
 I contratti, invece, prevengono gli **errori in fase di sviluppo** — ovvero le violazioni della logica del codice.
 
-Il DbC genera fiduci _nel codice stesso_, ed è questa la sua forza.
+Il DbC genera fiducia _nel codice stesso_, ed è questa la sua forza.
 
 ---
 
 ## Come faccio a provarlo?
 
-Questi linguaggi supportano nativamente il Design by Contract — è integrato nel compilatore o nel runtime, senza aggiungere librerie:
+Questi linguaggi supportano nativamente il Design by Contract — è integrato nel compilatore o nel runtime, senza dover ricorrere a librerie esterne:
 
 - [**Eiffel**](/kb/eiffel): la culla del Design by Contract. I contratti sono parte integrante del linguaggio e vengono applicati di default.
 - [**Ada**](/kb/ada): include precondizioni, postcondizioni e invarianti come parte integrante del linguaggio (dal 2012), con supporto formale tramite SPARK per sistemi ad alta affidabilità.
