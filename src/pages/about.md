@@ -49,4 +49,10 @@ Connect on [LinkedIn](https://www.linkedin.com/in/andrea-m-95ba44185/).
 
 ## Want to contribute?
 
-If you're passionate about contracts, compilers, or correctness-driven development, stay tuned — contribution paths will open up as the project evolves.
+The project is open source — if you’ve got ideas, examples, or time to spare, you’re more than welcome.
+
+The source code is [available on GitHub](https://github.com/beyondtesting-dev/beyondtesting.dev).
+
+Feel free to help us translate the content to other languages, suggest new diagrams, etc.
+
+Every contribution counts.

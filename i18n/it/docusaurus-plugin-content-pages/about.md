@@ -49,4 +49,10 @@ Seguimi su [LinkedIn](https://www.linkedin.com/in/andrea-m-95ba44185/).
 
 ## Vuoi contribuire?
 
-Se ti appassionano i contratti, i compilatori o lo sviluppo guidato dalla correttezza, fai un salto di tanto in tanto — le possibilità di contribuire si apriranno con l'evolversi del progetto.
+Il progetto è open source — se hai idee, esempi o tempo da dedicare, sei il benvenuto.
+
+Il sorgente [è su GitHub](https://github.com/beyondtesting-dev/beyondtesting.dev).
+
+Puoi aiutare a tradurre il sito in altre lingue, suggerire diagrammi, ecc.
+
+Ogni contributo è ben accetto.
