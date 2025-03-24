@@ -28,7 +28,7 @@ Mostra come i **contratti** possano rendere tutto questo possibile — con diagr
 > Ha formalizzato precondizioni, postcondizioni e invarianti — non come documentazione, ma come _garanzie eseguibili_.  
 > Il linguaggio Eiffel è stato il primo a rendere questi concetti parte integrante della progettazione.
 
-[Leggi il libro completo – 1284 pagine, PDF](https://bertrandmeyer.com/wp-content/upLoads/OOSC2.pdf)
+[Leggi il libro completo - 1284 pagine, PDF](https://bertrandmeyer.com/wp-content/upLoads/OOSC2.pdf)
 
 ---
 

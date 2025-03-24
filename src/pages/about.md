@@ -49,7 +49,7 @@ Connect on [LinkedIn](https://www.linkedin.com/in/andrea-m-95ba44185/).
 
 ## Want to contribute?
 
-The project is open source — if you’ve got ideas, examples, or time to spare, you’re more than welcome.
+The project is open source — if you've got ideas, examples, or time to spare, you're more than welcome.
 
 The source code is [available on GitHub](https://github.com/beyondtesting-dev/beyondtesting.dev).
 

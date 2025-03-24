@@ -76,12 +76,11 @@ export default function Home(): JSX.Element {
 
   return (
     <Layout
-      title={`${siteConfig.title} - open source library for GPU-accelerated GUI development`}
-      description="Open source library for GPU-accelerated GUI development for Node.js and the browser"
+      title={`${siteConfig.title} - Design by Contract`}
+      description="Clarity-first documentation and examples of Design by Contract (DbC), where correctness is built into code — not bolted on later."
     >
       <HomepageHeader />
       <main>
-        {/* <HomepageFeatures className="margin-bottom--xl" /> */}
         <div className="container">
           <div className="row margin-bottom--sm">
             <div className={clsx("col col--offset-2 col--8 padding-top--lg")}>

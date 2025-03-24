@@ -28,8 +28,8 @@ Sette test per una sola funzione. E non puoi mai essere certo di aver coperto tu
 ## Design by Contract
 
 ```
-Precondizione: l’input deve essere un intero positivo
-Postcondizione: l’output è una stringa che rispetta /^[a-z]+$/
+Precondizione: l'input deve essere un intero positivo
+Postcondizione: l'output è una stringa che rispetta /^[a-z]+$/
 Invariante: il buffer interno non è mai nullo
 ```
 
